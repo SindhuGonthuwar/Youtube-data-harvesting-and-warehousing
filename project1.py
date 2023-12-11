@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 def api_connect():   
-   api_key='AIzaSyDJl6cq_RK_II7jflVSZo8eOpAXavBNMQQ'
+   api_key='*****'
    youtube = build( 'youtube' , 'v3' , developerKey= api_key)
    return youtube
 youtube=api_connect()
